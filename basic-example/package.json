@@ -1,0 +1,20 @@
+{
+  "name": "basic-example",
+  "version": "1.0.0",
+  "description": "Example application to integrate SPYCE.5 with the official IOTA SDK",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/sdk": "^1.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}
