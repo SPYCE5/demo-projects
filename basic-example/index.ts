@@ -1,13 +1,10 @@
 import { Client } from "@iota/sdk";
 
-const useClient = async () => {
+const sendBlock = async () => {
   const client = new Client({
     nodes: [
       {
-        url: process.env.NODE_URL ?? "https://shimmer.spyce5.com",
-        auth: {
-          jwt: process.env.API_KEY ?? "<Your API Key here>", // <- insert your API key here
-        },
+        url: process.env.NODE_URL ?? "<insert-your-endpoint-url", // <- insert your endpoint here
       },
     ],
   });
@@ -22,4 +19,4 @@ const useClient = async () => {
 }
 
 
-useClient();
+sendBlock();
